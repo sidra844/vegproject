@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGEFOOD</title>
+    <link rel="shortcut icon" href="bg_1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="about.css">
+    
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="responsive.css">
+
+
+
+    <style>
+        body , h1 , h2 , h3, span , p , button {
+    transition: color 0.3s ease-in-out;
+
+}
+
+    /* Show mobile menu when active */
+    .nav-mobile.active {
+        display: flex;
+    }
+
+    /* Toggle button */
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+    
+    
+
+    /* Responsive Design */
+   
+    @media only screen and (max-width: 768px) {
+    .nav {
+        display: none; /* Hide desktop nav */
+    }
+    .menu-toggle {
+        display: block; /* Show toggle button */
+        padding-top: 0.4rem;
+    }
+}
+
+
+
+   
+</style>
+
+
+</head>
+<body>
+
+
+
+    <!--------------------------- bar green--------------------------------- -->
+
+    <div class="bar">
+        <i class="fa-thin fa-phone"></i>
+        <span class="ti-headphone-alt return-product">
+            + 1235 2355 98</span>
+        <span class="ti-credit-card return-product " style="text-transform: uppercase;">
+
+        youremail@email.com
+        </span>
+        <span class="return-product">3-5 Business days delivery & Free Returns</span>
+    </div>
+
+    <!----------------- color-changer---------------------- -->
+
+    <span class="ti-settings color-icon" onclick="toggleColors()"></span>
+    <!-- <span class="ti-settings" id="toggleBtn"></span> -->
+
+    <!-- Color Palette (Hidden by Default) -->
+    <div id="color">
+        <div class="color-box" id="a" style="background: #007bff;" onclick="changeColor(this)"></div>
+        <div class="color-box" id="b" style="background: #ae00ff;" onclick="changeColor(this)"></div>
+        <div class="color-box" id="c" style="background: #ff3300;" onclick="changeColor(this)"></div>
+        <div class="color-box" id="d" style="background: #f700ff;" onclick="changeColor(this)"></div>
+        <div class="color-box" id="e" style="background: #ffd900;" onclick="changeColor(this)"></div>
+    </div> 
+
+
+    <!-- ---------------     navigation bar ----------------------------- -->
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1 class="logo">VEGEFOODS</h1>
+        
+        <!-- Desktop Navigation -->
+        <ul class="nav">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <!-- <a href=".sect4"><li class="nav-item">SHOP</li></a> -->
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="index.html"><li class="nav-item">BLOG</li></a>
+            <a href="contact.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <!-- Mobile Navigation -->
+        <ul class="nav-mobile" id="navMenu">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <!-- <a href="contact.html"><li class="nav-item">SHOP</li></a> -->
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="contact.html"><li class="nav-item">BLOG</li></a>
+            <a href="index.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+    </div>
+
+    
+
+    <!-- --------------- HOME ------------------ -->
+
+   <section id="home">
+    <div class="home-sect">
+
+        <div class="first-heading">
+            <h1 class="head">
+                100% FRESH & ORGANIC FOODS
+            </h1>
+            <p class="para1">
+                WE DELIVER ORGANIC VEGETABLES & FRUITS
+
+            </p>
+            <button class="btn"> View Details </button>
+        </div>
+    </div>
+   </section>
+
+    <!-- --------------- second section ------------------ -->
+    
+
+     <section class="sect2">
+
+
+        <div class="icon-flex">
+            <div class="first-icon">
+                <div class="icon">
+                    <span class="ti-truck icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    FREE SHIPPING 
+    
+                </p>
+                <p class="para3">
+                    On order over $100
+                </p>
+
+            </div>
+
+
+
+            <div class="first-icon">
+                <div class="icon3">
+                    <span class="ti-dropbox icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Always Fresh
+
+    
+                </p>
+                <p class="para3">
+                    Product well package
+                </p>
+
+            </div>
+
+
+
+            <div class="first-icon">
+                <div class="icon4">
+                    <span class="ti-gift icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Superior Quality
+    
+                </p>
+                <p class="para3">
+                    Quality Products   
+                </p>
+            </div>
+
+            <div class="first-icon">
+                <div class="icon2">
+                    <span class="ti-headphone-alt icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Support    
+                </p>
+                <p class="para3">
+                    24/7 Support
+                </p>
+
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- /* -------------- THIRD SECTION ------------------- */ -->
+
+
+    <section class="sect3">
+
+        <div class="flex-image">
+            <div class="category-1">
+                <p class="para4">VEGETABLES</p>
+            </div>
+
+            <div class="image2">
+                <h2 class="head2">vegetable</h2>
+                <p class="para5">Protect the health of every home</p>
+                <button class="btn">SHOP NOW</button>
+            </div>
+
+            <div class="category-3">
+                <p class="para4">JUICE</p>
+            </div>
+
+        </div>
+
+        <div class="flex-image">
+            <div class="category-2">
+                <p class="para4">FRUITS</p>
+            </div>
+
+            <div class="category">
+                
+            </div>
+
+            <div class="category-4">
+                <p class="para4">Dried</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- /*---------------- 4th section -------------------  */ -->
+
+    <section class="sect4">
+
+        <div class="product">
+            <div class="product-heading">
+                <h2 class="head2">fearure Products</h2>
+                <h1 class="head3">Our Products</h1>
+                <p class="para6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+        </div>
+
+
+        <div class="product-flex">
+            <div class="product-1">
+                <p class="para7">30%</p>
+                <div class="icon-product">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+            <div class="product-2">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+            <div class="product-3">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+            <div class="product-4">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="product-flex">
+            <div class="product-5">
+                <p class="para7">30%</p>
+                <div class="icon-product" >
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+            <div class="product-6">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+            </div>
+            <div class="product-7">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+
+            </div>
+            <div class="product-8">
+                <div class="icon-product" style="padding-top: 18rem;">
+                    <span class="ti-align-justify hover-icon"> </span>
+                    <span class="ti-shopping-cart hover-icon"></span>
+                    <span class="ti-heart hover-icon"></span>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- /* ------------------- 5th section ------------------------->
+
+
+    <section id="sect5">
+
+        <div class="card-product">
+
+            <div class="card-flex">
+                <h3 class="head4">Best Price For You</h3>
+                <h1 class="head5">Deal of the day</h1>
+                <p class="para8">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="head6">Spinach</h2>
+                <p class="para8">10$ <span class="para9">now $5 only</span></p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- /* ------------------ 6th section ------------------ */ -->
+
+
+    <section id="sect6">
+        <div class="product">
+            <div class="product-heading" style="margin-top: 6rem;">
+                <h2 class="head2">Testimony</h2>
+                <h1 class="head3">Our satisfied customer says
+                </h1>
+                <p class="para6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in</p>
+            </div>
+        </div>
+
+
+        <div class="card-employe">
+            <div class="testimony-employ">
+
+                    <img src="person_1.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10" >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">WEB DEVELOPER</h4>
+                </div>
+    
+    
+    
+            </div>
+            <div class="testimony-employ">
+
+                
+                    <img src="person_2.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">INTERFACE DESIGNER</h4>
+                </div>
+    
+    
+    
+            </div>
+            <div class="testimony-employ">
+
+                
+                person_3.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">UI DESIGNER</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+        <!-- /* ------------------ 7th section ------------------ */ -->
+
+    <section id="sect7">
+
+        <div class="client-card">
+
+            <img src="partner-1.png" alt="" id="client-card">
+            <img src="partner-2.png" alt="" id="client-card">
+            <img src="partner-3.png" alt="" id="client-card">
+            <img src="partner-4.png" alt="" id="client-card">
+        </div>
+
+
+    </section>
+
+    <!-- /* ------------------ 8th section ------------------ */ -->
+
+
+    <section id="sect8">
+
+        <div class="form">
+
+            <div class="form-text">
+                <h2 class="h2">Subcribe to our Newsletter
+                </h2>
+                <p class="p1">
+                    Get e-mail updates about our latest shops and special offers</p>
+            </div>
+            <div class="form1">
+                <form action="">
+                    <input type="text" id="input">
+                    <input type="button" value="submit" id="input1">
+                </form>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+    <span class="ti-angle-up scroll-top " id="scrollTop" onclick="scrollToTop()"></span>
+
+
+    <!-- /* ----------------footer --------------------- */ -->
+
+
+    <footer id="foot">
+
+        <p class="p2">Copyright ©2025 All rights reserved | This template is made with  by Colorlib</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+<script src="main.js">
+
+
+       
+</script>
+    
+</body>
+</html>

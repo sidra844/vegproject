@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGEFOOD</title>
+    <link rel="shortcut icon" href="bg_1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body , h1 , h2 , h3, span , p , button {
+    transition: color 0.3s ease-in-out;
+
+}
+
+    /* Show mobile menu when active */
+    .nav-mobile.active {
+        display: flex;
+    }
+
+    /* Toggle button */
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+    
+
+    /* Responsive Design */
+   
+    @media only screen and (max-width: 768px) {
+    .nav {
+        display: none; /* Hide desktop nav */
+    }
+    .menu-toggle {
+        display: block; /* Show toggle button */
+        padding-top: 0.4rem;
+    }
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+    <!--------------------------- bar green--------------------------------- -->
+
+    <div class="bar">
+        <span class="ti-headphone-alt return-product">
+            + 1235 2355 98</span>
+        <span class="ti-credit-card return-product " style="text-transform: uppercase;">
+
+        youremail@email.com
+        </span>
+        <span class="return-product">3-5 Business days delivery & Free Returns</span>
+    </div>
+
+
+    <!-- ---------------     navigation bar ----------------------------- -->
+
+    <div class="navbar">
+        <h1 class="logo">VEGEFOODS</h1>
+        
+        <!-- Desktop Navigation -->
+        <ul class="nav">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <!-- <a href=".sect4"><li class="nav-item">SHOP</li></a> -->
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="index.html"><li class="nav-item">BLOG</li></a>
+            <a href="contact.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <!-- Mobile Navigation -->
+        <ul class="nav-mobile" id="navMenu">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <!-- <a href="contact.
+html"><li class="nav-item">SHOP</li></a> -->
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="index.html"><li class="nav-item">BLOG</li></a>
+            <a href="contact.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+    </div>
+
+    <!-- --------------- HOME ------------------ -->
+
+   <section id="home">
+    <div class="home-sect">
+
+        <div class="first-heading">
+            <h1 class="head">
+               ABOUT US
+            </h1>
+            <p class="para1">
+                WE DELIVER ORGANIC VEGETABLES & FRUITS
+
+            </p>
+        </div>
+    </div>
+   </section>
+
+    <!-- --------------- second section ------------------ -->
+
+   <section id="secct2">
+
+    <div class="about-section">
+        <div class="about-image">
+            <span class="ti-headphone-alt about-icon"></span>
+
+        </div>
+        <div class="about-text">
+            <h1 class="about-heading">
+                Welcome to Vegefoods an eCommerce website
+            </h1>
+            <p class="about-para">
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove <br> right at the coast of the Semantics, a large language ocean.
+
+            </p>
+            <p class="about-para">
+                But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+            </p>
+            <button class="about-btn">
+                Shop now
+
+            </button>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+   </section>
+    
+
+    
+
+
+    <!-- /* -------------- THIRD SECTION ------------------- */ -->
+
+    <section id="sect8">
+
+        <div class="form">
+
+            <div class="form-text">
+                <h2 class="h2">Subcribe to our Newsletter
+                </h2>
+                <p class="p1">
+                    Get e-mail updates about our latest shops and special offers</p>
+            </div>
+            <div class="form1">
+                <form action="">
+                    <input type="text" id="input">
+                    <input type="button" value="submit" id="input1">
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+   <!-- ----------- 4th SECTION --------------- -->
+
+
+    <section id="sect5">
+
+        <div class="card-product">
+
+            <div class="card-flex">
+                <h3 class="head4">Best Price For You</h3>
+                <h1 class="head5">Deal of the day</h1>
+                <p class="para8">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="head6">Spinach</h2>
+                <p class="para8">10$ <span class="para9">now $5 only</span></p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- /* ------------------ 5th section ------------------ */ -->
+
+
+    <section id="sect6">
+        <div class="product">
+            <div class="product-heading" style="margin-top: 6rem;">
+                <h2 class="head2">Testimony</h2>
+                <h1 class="head3">Our satisfied customer says
+                </h1>
+                <p class="para6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in</p>
+            </div>
+        </div>
+
+
+        <div class="card-employe">
+            <div class="testimony-employ">
+
+                    <img src="image/home/person_1.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10" >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">WEB DEVELOPER</h4>
+                </div>
+    
+    
+    
+            </div>
+            <div class="testimony-employ">
+
+                
+                    <img src="image/home/person_2.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">INTERFACE DESIGNER</h4>
+                </div>
+    
+    
+    
+            </div>
+            <div class="testimony-employ">
+
+                
+                    <img src="image/home/person_3.jpg" width="120px" height="120px" id="employ-image">
+                
+                <div class="text-employe">
+                    <p class="para10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.</p>
+    
+                    <h3 class="head4" style="padding-top: 3rem;">Garreth Smith</h3>
+                    <h4 class="h4">UI DESIGNER</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+        
+    <!-- /* ------------------ 6th section ------------------ */ -->
+
+
+    <section class="sect2">
+
+
+        <div class="icon-flex">
+            <div class="first-icon">
+                <div class="icon">
+                    <span class="ti-truck icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    FREE SHIPPING 
+    
+                </p>
+                <p class="para3">
+                    On order over $100
+                </p>
+
+            </div>
+
+
+
+            <div class="first-icon">
+                <div class="icon3">
+                    <span class="ti-dropbox icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Always Fresh
+
+    
+                </p>
+                <p class="para3">
+                    Product well package
+                </p>
+
+            </div>
+
+
+
+            <div class="first-icon">
+                <div class="icon4">
+                    <span class="ti-gift icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Superior Quality
+    
+                </p>
+                <p class="para3">
+                    Quality Products   
+                </p>
+            </div>
+
+            <div class="first-icon">
+                <div class="icon2">
+                    <span class="ti-headphone-alt icon1"></span>
+                </div>
+                <p class="para2" style="font-style: bold;">
+                    Support    
+                </p>
+                <p class="para3">
+                    24/7 Support
+                </p>
+
+            </div>
+        </div>
+    </section> 
+
+
+    <!--------------------- scroll ----------------- -->
+
+    <span class="ti-angle-up scroll-top " id="scrollTop" onclick="scrollToTop()"></span>
+
+    <!-- /* ----------------footer --------------------- */ -->
+
+
+    <footer id="foot">
+
+        <p class="p2">Copyright ©2025 All rights reserved | This template is made with  by Colorlib</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+ 
+</body>
+</html>

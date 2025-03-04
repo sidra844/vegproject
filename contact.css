@@ -1,0 +1,86 @@
+
+
+/*------------------------- home section ----------------------------- */
+
+
+
+/* /* ---------------------  section second *--------------/ */
+
+
+
+.contact-section{
+    background: var(--bs-gray);
+    height: 1000px;
+}
+
+
+.flex1{
+    background: white;
+    font-size: 14px;
+    color: gray;
+    width: 40%;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 4;
+    padding-top: 5rem;
+}
+
+
+
+
+
+/* section contact -------------- */
+
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+#input3{
+    width: 90%;
+    /* height: 2rem; */
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(187, 181, 181) !important;
+
+    text-transform: capitalize;
+}
+textarea{
+    width: 90%;
+    height: 40%;
+    margin: 1rem;
+    padding: 1rem;
+
+
+    border: 1px solid rgb(187, 181, 181) !important;
+
+
+
+}
+#contact-form{
+    width: 40%;
+    background: var(--bs-white);
+    padding: 4rem;
+    height: 650px;
+    
+
+}
+#contact-partner{
+    width: 500px;
+    height: 650px;
+}
+.contact-btn{
+    padding: 1rem;
+    font-size: 17px;
+    border-radius: 30px;
+    width: 50%;
+    color: var(--bs-white);
+    background: var(--bs-green);
+    margin-left: 0.4rem;
+    border: none;
+}

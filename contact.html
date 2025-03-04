@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGEFOOD</title>
+    <link rel="shortcut icon" href="image/home/bg_1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        body , h1 , h2 , h3, span , p , button {
+    transition: color 0.3s ease-in-out;
+
+}
+
+    /* Show mobile menu when active */
+    .nav-mobile.active {
+        display: flex;
+    }
+
+    /* Toggle button */
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+    
+    
+
+    /* Responsive Design */
+   
+    @media only screen and (max-width: 768px) {
+    .nav {
+        display: none; /* Hide desktop nav */
+    }
+    .menu-toggle {
+        display: block; /* Show toggle button */
+        padding-top: 0.4rem;
+    }
+}
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <!--------------------------- bar green--------------------------------- -->
+
+    <div class="bar">
+        <span class="ti-headphone-alt return-product">
+            + 1235 2355 98</span>
+        <span class="ti-credit-card return-product " style="text-transform: uppercase;">
+
+        youremail@email.com
+        </span>
+        <span class="return-product">3-5 Business days delivery & Free Returns</span>
+    </div>
+
+
+    <!-- ---------------     navigation bar ----------------------------- -->
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1 class="logo">VEGEFOODS</h1>
+        
+        <!-- Desktop Navigation -->
+        <ul class="nav">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <a href="contact.html"><li class="nav-item">SHOP</li></a>
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="index.html"><li class="nav-item">BLOG</li></a>
+            <a href="contact.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <!-- Mobile Navigation -->
+        <ul class="nav-mobile" id="navMenu">
+            <a href="index.html"><li class="nav-item">HOME</li></a>
+            <a href="contact.html"><li class="nav-item">SHOP</li></a>
+            <a href="about.html"><li class="nav-item">ABOUT</li></a>
+            <a href="contact.html"><li class="nav-item">BLOG</li></a>
+            <a href="index.html"><li class="nav-item">CONTACT</li></a>
+            <a href=""><li class="nav-item"> <span class="ti-truck"> [ 0 ]</span></li></a>
+
+        </ul>
+    </div>
+   
+
+    <!-- --------------- HOME ------------------ -->
+
+   <section id="home">
+    <div class="home-sect">
+
+        <div class="first-heading">
+            <h1 class="head">
+               CONTACT US
+            </h1>
+            <p class="para1">
+                WE DELIVER ORGANIC VEGETABLES & FRUITS
+
+            </p>
+        </div>
+    </div>
+   </section>
+
+
+   <!------------- sdecond section ---------- -->
+
+   <section id="sect2">
+    <div class="contact-section">
+
+        <div class="contact-flex">
+            <div class="flex1">
+                <p class="contact-text">
+                    Address: 198 West 21th Street, Suite 721 New York NY 10016
+                </p>
+            </div>
+            <div class="flex1">
+                <p class="contact-text">
+                    Phone: + 1235 2355 98
+                </p>
+            </div>
+            <div class="flex1">
+                <p class="contact-text">
+                    Email: info@yoursite.com                </p>
+            </div>
+            <div class="flex1">
+                <p class="contact-text">
+                    Website yoursite.com
+
+                </p>
+            </div>
+        </div>
+
+
+        <div class="contact-form">
+
+            <div class="contact-image">
+                <img src="person_1.jpg"  alt="" id="contact-partner">
+
+            </div>
+
+            <form id="contact-form">
+                <input type="text" name="" placeholder="Enter your name" id="input3"> <br>
+                <input type="email" name="" placeholder="enter your Email" id="input3"><br>
+                <input type="text" name="" placeholder="enter your subject" id="input3"><br>
+                <textarea name="" id=""></textarea><br>
+                <button class="contact-btn">send message</button>
+
+
+
+            </form>
+        </div>
+
+        <span class="ti-angle-up scroll-top " id="scrollTop" onclick="scrollToTop()"></span>
+    </div>
+   </section>
+
+   <footer id="foot">
+
+    <p class="p2">Copyright ©2025 All rights reserved | This template is made with  by Colorlib</p>
+
+</footer>
+
+</body>
+</html>
